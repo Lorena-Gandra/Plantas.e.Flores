@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Work+Sans:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+margin-right:0;
+font-family: 'Work Sans', sans-serif;
+
+}
+.navbar{
+    display: flex;
+    height: 100px;
+    background-color: #c9c5c2;
+    justify-content: space-between;
+}
+header a{
+
+text-decoration: none;   
+color: black;
+font-size: 20px;
+font-weight: bold;
+color: rgb(0, 0, 0);
+padding: 20px 20px 20px 20px;
+opacity: 0.5;
+border-bottom: 1px solid #5f6c4f;
+}
+
+header a:hover{
+background-color: #262f1e;
+border-radius: 50px;
+color: black;
+
+
+
+}
+
+header h1{
+font-size: 40px;
+font-family: 'Playfair Display', serif;
+background-color: #5f6c4f;
+padding: 10px;
+text-shadow: 3px 5px #9d9e97;
+}
+
+/* termino de logo*/
+
+
+
+.imagem{
+float: right;
+border-radius: 10px;
+margin-top: 30px;
+opacity: 0.7;
+}
+
+.imagem:hover{
+opacity: 1;
+
+}
+
+
+ .paragrafo{
+float: left;
+font-family: 'Playfair Display', serif;
+font-weight: bold;
+font-size: 13px;
+text-align: center;
+margin-left: 80px;
+margin-top: 30px;
+border-bottom: #262f1e solid 1px;
+ }
+
+section li{
+font-weight: bold;
+font-size: 20px;
+padding: 9px;
+cursor: pointer;
+
+ }
+
+ section li:hover{
+background-color: #5c5154;
+overflow: auto;
+font-size: 23px;
+
+
+
+ }
+
+ .animados{
+
+padding-left: 40px;
+margin-left: 30px;
+
+ }
+
+ .segundaparte{
+    margin-top: 100px;
+    border-top: 1px solid gray;
+ }
+
+ .segunda{
+float: left;
+margin-left: 50px;
+display: block;
+font-size: 40px;
+border-bottom: #262f1e solid 5px;
+
+ }
+
+
+ .mb-3{
+padding-right: 50px;
+display: inline-block;
+font-size: 30px;
+
+ }
+
+.card{
+
+margin-top: 10%;
+margin-right: 10px;
+padding: 10px;
+margin-left: 100px;
+letter-spacing: 30px;
+}
+
+.card1{
+opacity: 0.3;
+border: #262f1e solid 2px;
+border-radius: 10px;
+
+}
+.card1:hover{
+opacity: 1;
+cursor: pointer;
+
+}
+
+ 
+.card h4{
+
+font-size:10px ;
+letter-spacing: 1px;
+}
+
+.texto{
+overflow: auto;
+height: 150px;
+margin-top: 60px;
+border: #5c5154 solid 1px;
+margin: 30px;
+margin-bottom: 60px;
+font-family:'Playfair Display', serif;
+}
+
+.p1{
+padding: 1px;
+color: #262f1e;
+font-weight: bold;
+border-bottom: solid 4px #a88670;
+position: static;
+}
+
+footer{
+
+width: 100%;
+min-height: 250px;
+background-color: #262f1e;
+display: flex;
+padding: 15px;
+
+}
+
+.footer1{
+
+padding-left: 150px;
+padding-bottom: 50px;
+font-weight: bold;
+font-size: 20px;
+text-decoration: underline;
+
+}
+
+.footer1:hover{
+
+color: aliceblue;
+cursor: pointer;
+
+
+
+}
